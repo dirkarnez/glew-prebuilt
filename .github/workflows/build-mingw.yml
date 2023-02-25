@@ -39,7 +39,7 @@ jobs:
             ${{ github.workspace }}\mingw64;^
             ${{ github.workspace }}\mingw64\bin;^
             ${{ github.workspace }}\PortableGit-2.38.1-64-bit\bin;^
-            ${{ github.workspace }}\cmake-3.24.0-windows-x86_64\bin;^
+            ${{ github.workspace }}\cmake-3.24.0-windows-x86_64\bin;
             gcc --version &&^
             cd glew\build\cmake &&^
             cmake.exe -G "MinGW Makefiles" ^
